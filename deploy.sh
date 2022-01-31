@@ -9,7 +9,7 @@ git pull
 
 echo "Install app dependencies"
 sudo rm -rf node_modules package-lock.json
-sudo npm install
+npm install
 
 echo "Run new PM2 action"
 pm2 start ecosystem.config.js
