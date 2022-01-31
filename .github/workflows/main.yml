@@ -20,4 +20,4 @@ jobs:
           script: |
             whoami
             ls -al
-            ./deploy.sh
+            ./github-actions/deploy.sh
