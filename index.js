@@ -7,7 +7,7 @@ const port = 3000
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Return all todos - Version#1')
+  res.send('Return all todos - Version#2 bolson')
 })
 
 app.post('/add', (req, res) => {
