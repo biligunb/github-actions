@@ -6,6 +6,7 @@ echo "Jump to app folder"
 cd /home/ubuntu/github-actions
 
 echo "Update app from Git"
+git checkout .
 git pull
 
 echo "Install app dependencies"
