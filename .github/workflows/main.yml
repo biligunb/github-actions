@@ -19,4 +19,4 @@ jobs:
           key: ${{ secrets.AWS_KEY }}
           script: |
             chmod +x ./github-actions/deploy.sh
-            ./github-actions/deploy.sh
+            sh ~/github-actions/deploy.sh
