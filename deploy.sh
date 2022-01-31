@@ -1,5 +1,5 @@
 echo "Kill all the running PM2 actions"
-pm2 kill
+sudo pm2 kill
 
 echo "Jump to app folder"
 cd /home/ubuntu/github-actions
@@ -9,7 +9,7 @@ git pull
 
 echo "Install app dependencies"
 sudo rm -rf node_modules package-lock.json
-npm install
+sudo npm install
 
 echo "Run new PM2 action"
-pm2 start ecosystem.config.js
+sudo pm2 start ecosystem.config.js
