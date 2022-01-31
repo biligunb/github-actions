@@ -20,4 +20,5 @@ jobs:
           script: |
             whoami
             ls -al
+            chmod +x ./github-actions/deploy.sh
             ./github-actions/deploy.sh
