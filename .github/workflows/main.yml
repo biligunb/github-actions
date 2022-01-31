@@ -18,7 +18,5 @@ jobs:
           username: ${{ secrets.AWS_USER }}
           key: ${{ secrets.AWS_KEY }}
           script: |
-            whoami
-            ls -al
             chmod +x ./github-actions/deploy.sh
             ./github-actions/deploy.sh
